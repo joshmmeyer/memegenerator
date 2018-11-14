@@ -28,7 +28,7 @@ app.get('/', function (request, response) {
 app.get('/add', function (request, response) {
     // render views/store/add.ejs
     response.render('store/add', {
-        title: 'Add New Itemmmmm',
+        title: 'Add New Item',
         sname: '',
         qty: '',
         price: ''
